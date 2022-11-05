@@ -1,0 +1,13 @@
+:root {
+  --DarkGrayishBlue: hsl(227, 12%, 61%);
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body{
+  background-color: black;
+}
