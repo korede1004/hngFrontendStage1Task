@@ -10,7 +10,6 @@
   --VveryWhitishGray: #F2F4F7;
   --VeryWhitishGray: #F9FAFB;
   --WhitishGray: #FCFCFD;
-  
 
 }
 
@@ -21,5 +20,96 @@
   font-family: 'Inter', sans-serif;
 }
 body{
-  background-color: black;
+  background-color: #FCFCFD;
+}
+main{
+  margin: 30px 15px;
+  /* background-color: #101828; */
+}
+.links{
+
+}
+#profile_img{
+  display: ;
+}
+.photo{
+
+}
+
+#focusedpf{
+  display: block;
+  width: 90px;
+  margin: 0 auto;
+  padding-top: 25px;
+  cursor: pointer;
+}
+#hoverpf{
+  display: none;
+}
+.pfimages:hover #hoverpf{
+  display: inline;
+  width: 90px;
+  position: absolute;
+  left: 143px;
+  padding-top: 25px;
+  cursor: pointer;
+}
+.micon #moreDefault{
+  display: block;
+  position: absolute;
+  right:15px;
+  top: 30px;
+  cursor: pointer;
+}
+
+#morePressed{
+  display: none;
+}
+.micon:hover #morePressed{
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right:15px;
+  top: 30px;
+}
+#shareMobile{
+  display: none;
+}
+#shareDesktop{
+  display: none;
+}
+.name{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 25px;
+}
+.social a{
+  text-decoration: none;
+  color: #101828;
+  font-size: 15px;
+  font-weight: 600;
+}
+#slack{
+  display: none;
+}
+#twitter, #btn__zuri, 
+#books, #book_phyton, 
+#pitch, #book_design{
+  width: 100%;
+  text-align: center;
+  background-color:#EAECF0;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+section{
+  padding-top: 20px;
+  padding-bottom: 70px ;
+  text-align: center;
+  border-bottom: 1px solid ;
+  /* margin: 50px 25px; */
+}
+section img{
+  margin: 10px;
 }

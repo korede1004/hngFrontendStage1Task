@@ -12,7 +12,7 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <script src="js/script.js"></script>
     <title>HNG Intership 9 Frontend Task</title>
@@ -20,9 +20,10 @@
   <body>
     <main>
       <div class="links">
-        <div id="profile__img">
+        <div id="profile_img">
           <div class="photo">
-            <img
+            <div class="pfimages">
+              <img
               src="./image/Device=Web, State=Hover.png"
               alt="profile picture"
               id="hoverpf"
@@ -32,16 +33,21 @@
               alt="profile picture"
               id="focusedpf"
             />
-            <img
+            </div>
+            <div class="micon">
+              <img
               src="./image/Type=more, State=Default.png"
               alt="more icon"
               id="moreDefault"
+              class="moreDefault"
             />
             <img
               src="./image/Type=more, State=Pressed.png"
               alt="more icon"
               id="morePressed"
+              class="morePressed"
             />
+            </div>
             <img
               src="./image/Type=Share mobile, State=Default.png"
               alt="share icon"
@@ -84,13 +90,13 @@
             >Background Check For Coders</a
           >
         </div>
-        <div id="book__design">
+        <div id="book_design">
           <a href="https://books.zuri.team/design-rules">Design Books</a>
         </div>
       </div>
     </main>
     <section>
-      <img src="./image/slack.png" alt="slack icon" id="slack" />
+      <img src="./image/slack.png" alt="slack icon" id="slackLogo" />
       <img src="./image/Icon.png" alt="github icon" id="github" />
     </section>
     <footer>
